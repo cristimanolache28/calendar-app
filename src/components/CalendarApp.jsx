@@ -38,7 +38,7 @@ const CalendarApp = () => {
           <span>14</span>
           <span>15</span>
           <span>16</span>
-          <span>17</span>
+          <span className="current-day">17</span>
           <span>18</span>
           <span>19</span>
           <span>20</span>
@@ -74,9 +74,10 @@ const CalendarApp = () => {
             <div className="event-time">10:00</div>
           </div>
           <div className="event-text">Meeting with John</div>
-          <div className="event-buttons">~
-            <i className="bx bxs-edit-alt"></i>
-            <i className="bx bxs-message-alt-x"></i>
+          <div className="event-buttons">
+            <i className="bx bx-edit-alt"></i>
+            {/* <i className="bx bx-message-alt-x"></i> */}
+            <i class="bx bx-message" />
           </div>
         </div>
       </div>
