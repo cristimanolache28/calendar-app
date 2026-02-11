@@ -76,7 +76,6 @@ const CalendarApp = () => {
           <div className="event-text">Meeting with John</div>
           <div className="event-buttons">
             <i className="bx bx-edit-alt"></i>
-            {/* <i className="bx bx-message-alt-x"></i> */}
             <i class="bx bx-message" />
           </div>
         </div>
